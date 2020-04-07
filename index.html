@@ -77,7 +77,7 @@
 					<label for="Phone_Number">Phone Number:</label> 
 					<input type="tel" name="phone" id="Phone_Number" placeholder="999-999-9999" title="your 10 digit phone number (with dashes)" pattern="\d{3}[\-]\d{3}[\-]\d{4}" ><br>
 				</fieldset>
-				
+			
 				<fieldset>
 				<legend>Ordering Information</legend>				
 					<label for="Party">Party:</label>
@@ -109,13 +109,13 @@
 					<input type="radio" id="Credit_Card" name="Credit_Card" value="Credit Card" >Credit Card</label>
 				
 				</fieldset>
-				
+					
 				<fieldset>
 				<legend>Credit Card Information</legend>
 					<label for="Card_Type">Card Type:</label>
 					<select id="Card_Type" name="Card Type">
 						<option value="Visa">Visa</option>
-						<option value="Master Card">Master Card</option>
+						<option value="Master_Card">Master Card</option>
 						<option value="Discover">Discover</option>
 					</select><br>
 				
@@ -123,7 +123,7 @@
 					<input type="number" id="Card_Number" name="Card Number" placeholder="16 digits" title="16 digit numeric code" required><br>
 					
 					<label for="Experation_Date">Experation Date:</label>
-					<select id="Month" name="Month">
+					<select id="Experation_Date" name="Month">
 						<option value="January">January</option>
 						<option value="Febuary">Febuary</option>
 						<option value="March">March</option>
@@ -138,7 +138,7 @@
 						<option value="December">December</option>
 					</select>
 					
-					<select id="year" name="Year">
+					<select id="Year" name="Year">
 						<option value="2015">2015</option>
 						<option value="2016">2016</option>
 						<option value="2017">2017</option>
@@ -147,13 +147,10 @@
 					</select>
 					
 				</fieldset>
-				
-				
-				
-				
+
 				<fieldset>
 				<legend>Submit Your Order</legend>
-					<input type="reset" id="reset" value="Reset_Fields">
+					<input type="reset" id="reset" value="Reset Fields">
 					<input type="submit" id="submit" value="Submit">
 
 				</fieldset>
