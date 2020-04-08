@@ -255,6 +255,17 @@ select {
 	margin-left: 5px;
 }
 
+select, input {
+	width: 15em;
+}
+
+#Year {
+	width: 5em !important;	
+}
+
+#Month {
+	width: 7em !important;
+}
 
 br {
     clear: both;
